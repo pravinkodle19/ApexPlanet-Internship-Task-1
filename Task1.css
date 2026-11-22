@@ -1,0 +1,125 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Header */
+header {
+    background-color: #046358;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Main section */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+/* Cards */
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #00695c;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    color: #444;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+
+/* Image */
+.card img {
+    width: 400px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+
+/* List */
+.card ul {
+    margin-left: 25px;
+}
+/* Link */
+a {
+    color: #f8450a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Button */
+button {
+    background-color: #08de8f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #077865;
+}
+
+
+/* JavaScript message */
+#message {
+    color: #00695c;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
